@@ -72,7 +72,7 @@ return subjects[maxIndex]+"is the best score"+scores[maxIndex];
 		for( int score : scores)
 		{
 			sum += score;
-		product *= score;
+			product *= score;
 		}
 		
 		return new int[] {sum,product};
